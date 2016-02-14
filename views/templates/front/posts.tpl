@@ -17,7 +17,7 @@
                     {assign var="activeimgincat" value='0'}
                     {$activeimgincat = $smartshownoimg} 
                     {if ($post_img != "no" && $activeimgincat == 0) || $activeimgincat == 1}
-                        <a id="post_images" href="{$modules_dir}/smartblog/images/{$post_img}-single-default.jpg"><img src="{$modules_dir}/smartblog/images/{$post_img}-single-default.jpg" alt="{$meta_title}"></a>
+                        <a id="post_images" href="{$modules_dir}smartblog/images/{$post_img}-single-default.jpg"><img src="{$modules_dir}smartblog/images/{$post_img}-single-default.jpg" alt="{$meta_title}"></a>
                     {/if}
              </div>
             <div class="sdsarticle-des">
